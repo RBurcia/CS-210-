@@ -2,19 +2,21 @@
 #include <vector>
 
 //Make a method that just prints out the indicies of your array
-namespace arraySorting{
-    int findMax(const std::vector<int>& array){
-        int Max = array[0];
+// namespace arraySorting{
 
-        for(int i = 0; i < array.size(); i++){
-            if(array[i]> Max){
-                std::array[i] = Max;
-            }
-        }
-    }
+//     using namespace std;
+//     int findMax(const vector<int>& array){
+//         int Max = array[0];
+
+//         for(int i = 0; i < array.size(); i++){
+//             if(array[i]> Max){
+//                 array[i] = Max;
+//             }
+//         }
+//     }
 
 
-}
+// }
 
 //Make a method that just finds the highest number
 
