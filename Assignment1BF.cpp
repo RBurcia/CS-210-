@@ -7,8 +7,9 @@ using namespace std;
     vector<int> twoSumBF(const vector<int>& array, int target){
     //Creates my 'neededs' for each index before searching through array
     vector<vector<int>> answers;
+
     for(int i = 0; i < array.size(); ++i){
-        int needed = target - array[i]; // for example 24-15 = 
+        int needed = target - array[i]; // for example 24-15 = 9
         //Search through array 
         for(int j = 0; j < array.size(); ++j){
             if(array[j] == needed){
