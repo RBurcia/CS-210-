@@ -161,6 +161,33 @@ int main(){
 
     cout << "key_hidden at Index: " << Test2_Hidden_I << " and required " << comparisons << " comparisons" << endl;
 
+
+////&&&&&&&&&&&&&&  Technical explanation:  &&&&&&&&&&&&&& 
+
+// Explain your design decisions, tests, results, and time/space complexity where applicable.
+
+//    My design choice for the iterative binary search was to implement it in a while loop. Inside 
+//the while loop, I have two if statements that check both the left and right sides of the array; if
+// the target is on the left side, we set high to the middle value minus 1. We keep doing this iteratively
+// until the target value is found, all while keeping count of each comparison. For the recursive binary search,
+// we treat our left and right checks as the base cases for which the function is called each time.
+
+//    The tests were done as expected; I just changed the key while keeping the same array to test whether the
+// target is in the middle, end, beginning, not in the array, and outside of the array.
+
+//    The results were as expected; they both share the same index where the key was found, but the iterative 
+//searches had the most comparisons to be made during the search.
+
+//    The time complexity of the iterative search was O(logn), and the space complexity was O(1) since we keep
+// the same memory of the array. The time complexity of the recursive search was O(logn), and the space complexity is also O(logn) since for each recursion we create a new pointer to the same array but half of it. We keep doing this repetition until we find the target.
+
+//    Why we have the T(n) = T(n/2) + O(1) refer to the same thing as O(log n) for the recursive search, is 
+//because one time doing a loop in a recursion can be referred to as the same thing as T(n/2) + O(1), where 
+//O(1) refers to the first comparison in the middle of the array and T(n/2) refers to us going into the recursive
+// function again, but taking half of the array instead. When we have big arrays we exponentially get closer to the
+// target by taking half of the array each time, but instead of being slow regardless how exponentially bigger
+// our input is, it becomes fast regardless of how exponentially big our input size is.
+
     
 
     return 0;
