@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/Owner/Documents/Visual_Studio_Code_Projects/CS-210-/build",
+  "command": "c:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Owner/Documents/Visual_Studio_Code_Projects/CS-210-/build/Monopoly_autogen/include -isystem C:/Qt/6.12.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.12.0/mingw_64/include -isystem C:/Qt/6.12.0/mingw_64/include/QtCore -isystem C:/Qt/6.12.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.12.0/mingw_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -o CMakeFiles\\Monopoly.dir\\Monopoly_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\Owner\\Documents\\Visual_Studio_Code_Projects\\CS-210-\\build\\Monopoly_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/Owner/Documents/Visual_Studio_Code_Projects/CS-210-/build/Monopoly_autogen/mocs_compilation.cpp",
+  "output": "C:/Users/Owner/Documents/Visual_Studio_Code_Projects/CS-210-/build/CMakeFiles/Monopoly.dir/Monopoly_autogen/mocs_compilation.cpp.obj"
+}
+]

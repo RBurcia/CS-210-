@@ -1,0 +1,5 @@
+C:/Users/Owner/Documents/Visual_Studio_Code_Projects/CS-210-/build/CMakeFiles/Monopoly.dir
+C:/Users/Owner/Documents/Visual_Studio_Code_Projects/CS-210-/build/CMakeFiles/edit_cache.dir
+C:/Users/Owner/Documents/Visual_Studio_Code_Projects/CS-210-/build/CMakeFiles/rebuild_cache.dir
+C:/Users/Owner/Documents/Visual_Studio_Code_Projects/CS-210-/build/CMakeFiles/Monopoly_autogen_timestamp_deps.dir
+C:/Users/Owner/Documents/Visual_Studio_Code_Projects/CS-210-/build/CMakeFiles/Monopoly_autogen.dir
