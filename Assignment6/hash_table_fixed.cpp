@@ -40,6 +40,21 @@ rehash event.
 - Explain collisions, chaining, load factor, expected lookup complexity, and 
 why a classroom hash is not a production password-hashing scheme.
 
+NOTICE: I used claude to help with the errors I had using find() when trying to display my hash differences when collision occours, and also cleaning up any errors encountered with making my interfaces correct.
+
+COLLISIONS: Collisions are what occour in hashmaps where, most often when approachin a full hashmap, an item sent to a bucket will meet another item already inside that bucket, this is called a collision.
+
+CHAINING: Chaining is the process of linking items to eachother inside a bucket in a hashmap. This is done to prevent collisions since you are allowing multipul items in one bucket regardless of them being in the same location
+
+LOAD FACTOR: Load Factor is the number (associated usually to (number of items / number of buckets)) that installs a threshold of when a hashmap requires resizing before eminiant collisions occour.
+
+EXPECTED COMPLEXITY:
+- Chaining O(1)
+- Linear Probing O(1)
+- Double Hashing O(1)
+
+REASON WHY CLASSROM HASH IS NOT USED: Classroom hash is made to be fast, efficent, and good in making sense for us to use for the first time. Those qualities also work well for hackers since a rainbow table can easily crack it along with brute force considering the salt and pepper are hardcoded and short.
+
 - Restriction: do not use std::unordered_map for the table that stores the user 
 records.
 */
